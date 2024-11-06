@@ -13,7 +13,7 @@ try{
     $pdo = new PDO('mysql:host='.$host.';dbname='.$bdd, $username);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
-    echo "connexion établie";
+    
 }
 catch(PDOException $e)
 {
